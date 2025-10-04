@@ -36,7 +36,7 @@ While the digital core functions correctly, the DAC's analog output remains stat
 
 The analog output signal **dac.OUT** (or **real OUT**) remains static (e.g., at a fixed voltage) throughout the entire simulation, despite the verified, dynamic changes on the digital input **RV\_TO\_DAC[9:0]**.
 
-![Waveform showing dynamic digital input but static analog output]([image2)](https://github.com/Priyanshi1947/Week-2---VLSI-System-Design/blob/main/image2.jpeg)
+![Waveform showing dynamic digital input but static analog output](https://github.com/Priyanshi1947/Week-2---VLSI-System-Design/blob/main/image2.jpeg)
 ***Figure 2: Waveform showing dynamic RV\_TO\_DAC[9:0] but static dac.OUT.***
 
 ### Root Cause (Reasoning)
