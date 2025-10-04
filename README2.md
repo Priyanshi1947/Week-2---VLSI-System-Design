@@ -23,7 +23,7 @@ Synchronous operation is verified by examining the relationship between the cloc
 The core's successful execution of instructions and data processing is confirmed by monitoring the digital input to the DAC.
 * **Verification:** The **RV\_TO\_DAC[9:0]** signal (the digital input to the DAC) shows **dynamic changes** over time, indicating the RVMYTH core is actively executing instructions and generating new output data values.
 
-![Digital core signals showing successful initialization and data flow](images/image1)
+![Digital core signals showing successful initialization and data flow](image1)
 ***Figure 1: Digital Core Signals (PC, CLK, reset, RV\_TO\_DAC[9:0]) showing successful verification.***
 
 <hr>
@@ -36,7 +36,7 @@ While the digital core functions correctly, the DAC's analog output remains stat
 
 The analog output signal **dac.OUT** (or **real OUT**) remains static (e.g., at a fixed voltage) throughout the entire simulation, despite the verified, dynamic changes on the digital input **RV\_TO\_DAC[9:0]**.
 
-![Waveform showing dynamic digital input but static analog output](images/image2)
+![Waveform showing dynamic digital input but static analog output](image2)
 ***Figure 2: Waveform showing dynamic RV\_TO\_DAC[9:0] but static dac.OUT.***
 
 ### Root Cause (Reasoning)
